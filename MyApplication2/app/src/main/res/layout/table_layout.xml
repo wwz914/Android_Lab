@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:background="#000000">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="300dp"
+            android:padding="10dp"
+            android:text="    Open..."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Ctrl-O"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="300dp"
+            android:padding="10dp"
+            android:text="    Save..."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Ctrl-S"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="300dp"
+            android:padding="10dp"
+            android:text="    Save As..."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Ctrl-Shift-S"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="300dp"
+            android:padding="10dp"
+            android:text="X Import..."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text=""
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="300dp"
+            android:padding="10dp"
+            android:text="X Export..."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Ctrl-E"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="300dp"
+            android:padding="10dp"
+            android:text="    Quit"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text=""
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+    </TableRow>
+</TableLayout>

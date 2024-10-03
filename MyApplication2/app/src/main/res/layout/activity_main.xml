@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_one_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="One, One" />
+        <Button
+            android:id="@+id/button_one_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="One, Two"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/button_one_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="One, Three"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_one_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="One, Four"
+            android:textSize="16sp" />
+        <!-- Add other buttons here with the same layout properties -->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_two_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Two, One" />
+        <Button
+            android:id="@+id/button_two_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Two, Two"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/button_two_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Two, Three"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_two_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Two, Four"
+            android:textSize="16sp" />
+        <!-- Add other buttons here with the same layout properties -->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_three_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Three, One" />
+        <Button
+            android:id="@+id/button_three_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Three, Two"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/button_three_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Three, Three"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_three_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Three, Four"
+            android:textSize="16sp" />
+        <!-- Add other buttons here with the same layout properties -->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_four_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Four, One" />
+        <Button
+            android:id="@+id/button_four_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Four, Two"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/button_four_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Four, Three"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_four_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Four, Four"
+            android:textSize="16sp" />
+        <!-- Add other buttons here with the same layout properties -->
+
+    </LinearLayout>
+</LinearLayout>

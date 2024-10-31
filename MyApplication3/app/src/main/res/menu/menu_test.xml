@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/font_size_group" android:checkableBehavior="single">
+        <item
+            android:id="@+id/font_size_small"
+            android:title="小字体"
+            android:orderInCategory="100"/>
+
+        <item
+            android:id="@+id/font_size_medium"
+            android:title="中等字体"
+            android:orderInCategory="200" />
+
+        <item
+            android:id="@+id/font_size_large"
+            android:title="大字体"
+            android:orderInCategory="300"/>
+    </group>
+
+    <item
+        android:id="@+id/normal_menu_item"
+        android:title="普通菜单项"/>
+
+    <group android:id="@+id/font_color_group" android:checkableBehavior="single">
+        <item
+            android:id="@+id/font_color_red"
+            android:title="红色"
+            android:orderInCategory="400"/>
+
+        <item
+            android:id="@+id/font_color_black"
+            android:title="黑色"
+            android:orderInCategory="500" />
+    </group>
+
+</menu>

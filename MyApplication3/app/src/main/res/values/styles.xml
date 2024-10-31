@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 定义一个新的对话框样式 -->
+    <style name="MyDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowTitleBackgroundStyle">@style/DialogTitleBackgroundStyle</item>
+    </style>
+
+    <!-- 定义标题区域的背景样式 -->
+    <style name="DialogTitleBackgroundStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/yellow</item>
+    </style>
+
+    <!-- 定义黄色颜色资源 -->
+    <color name="yellow">#FFFF00</color>
+</resources>

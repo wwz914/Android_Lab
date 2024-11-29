@@ -1,0 +1,10 @@
+<!-- res/values/colors.xml -->
+<resources>
+    <!-- 定义默认背景颜色 -->
+    <color name="default_background">#FFFFFF</color> <!-- 白色 -->
+
+    <!-- 其他颜色资源 -->
+    <color name="primary_color">#6200EE</color>
+    <color name="secondary_color">#03DAC5</color>
+    <color name="text_color">#000000</color>
+</resources>
